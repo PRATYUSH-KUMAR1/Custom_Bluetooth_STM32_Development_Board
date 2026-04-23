@@ -11919,7 +11919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19"
+		(property "Value" "100n"
 			(at 233.68 133.3499 0)
 			(effects
 				(font
