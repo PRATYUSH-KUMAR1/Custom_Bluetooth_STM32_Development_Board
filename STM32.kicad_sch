@@ -5551,12 +5551,6 @@
 		(uuid "13d11690-002e-418b-a576-bb2bcfc4f319")
 	)
 	(junction
-		(at 200.66 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "181749f4-fd12-4bef-80dd-9e9fd7feb005")
-	)
-	(junction
 		(at 59.69 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5791,12 +5785,6 @@
 		(uuid "9c0aed6d-3d68-43f9-bc04-376511ada91c")
 	)
 	(junction
-		(at 198.12 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ff5c391-0241-470d-9399-7b635b49e227")
-	)
-	(junction
 		(at 173.99 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5839,12 +5827,6 @@
 		(uuid "b9270d2c-141c-4dd3-84af-ec0f9dcdb8f5")
 	)
 	(junction
-		(at 139.7 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c08c6173-c7da-4a67-a44b-9b594f9c5043")
-	)
-	(junction
 		(at 50.8 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5879,12 +5861,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d64d0711-f0f0-49f9-a991-a33f0e30f953")
-	)
-	(junction
-		(at 191.77 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d843cc2c-17a5-4dc3-a40a-d70edb2619c3")
 	)
 	(junction
 		(at 33.02 15.24)
@@ -6354,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 46.99) (xy 139.7 46.99)
+			(xy 132.08 46.99) (xy 153.67 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6574,7 +6550,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 118.11) (xy 191.77 116.84)
+			(xy 191.77 114.3) (xy 191.77 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6914,7 +6890,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 104.14) (xy 200.66 104.14)
+			(xy 186.69 104.14) (xy 204.47 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6931,16 +6907,6 @@
 			(type default)
 		)
 		(uuid "743c6126-3a04-4239-a2f0-481a540897d2")
-	)
-	(wire
-		(pts
-			(xy 50.8 158.75) (xy 50.8 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76146c3d-1222-4b05-ae56-2c297549c38d")
 	)
 	(wire
 		(pts
@@ -7174,7 +7140,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 93.98) (xy 198.12 93.98)
+			(xy 186.69 93.98) (xy 210.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7201,16 +7167,6 @@
 			(type default)
 		)
 		(uuid "8bcc4be5-16d3-4c80-8920-076c7eba34cd")
-	)
-	(wire
-		(pts
-			(xy 191.77 116.84) (xy 191.77 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c0778b8-4aa5-41cb-b8e8-60ad432146ef")
 	)
 	(wire
 		(pts
@@ -7794,16 +7750,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 46.99) (xy 153.67 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfc8c78-96ed-4aab-9601-1ed023c3e479")
-	)
-	(wire
-		(pts
 			(xy 186.69 76.2) (xy 193.04 76.2)
 		)
 		(stroke
@@ -7831,16 +7777,6 @@
 			(type default)
 		)
 		(uuid "cfda59a4-879a-4481-8fac-f1df6bffd9e1")
-	)
-	(wire
-		(pts
-			(xy 198.12 93.98) (xy 210.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0bb9144-ad47-4c08-87fe-f0701631a782")
 	)
 	(wire
 		(pts
@@ -7911,16 +7847,6 @@
 			(type default)
 		)
 		(uuid "d86903cb-fd44-4a0c-aa0c-7d0d7d5175d3")
-	)
-	(wire
-		(pts
-			(xy 200.66 104.14) (xy 204.47 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d89d6ced-0913-4aec-a97a-1d3bb3dd906d")
 	)
 	(wire
 		(pts
@@ -8602,6 +8528,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -8611,6 +8538,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -8939,7 +8867,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "116604b7-47ce-4706-8696-c603bfc851a6")
 		(property "Reference" "#PWR03"
 			(at 138.43 45.72 0)
@@ -8951,7 +8878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 43.18 0)
+			(at 136.144 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9238,73 +9165,6 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 200.66 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "159a0fa3-edca-455f-bd3e-62add03fdffa")
-		(property "Reference" "TP11"
-			(at 203.2 99.5679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 203.2 102.1079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 205.74 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 200.66 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ef262a1-bce7-4f7a-a790-da9605b13319")
-		)
-		(instances
-			(project "STM32"
-				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
-					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9711,6 +9571,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole_Pad"
@@ -9720,6 +9581,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
@@ -9937,6 +9799,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -9946,6 +9809,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -10071,6 +9935,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -10080,6 +9945,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -10138,6 +10004,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -10147,6 +10014,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -10809,6 +10677,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -10818,6 +10687,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -10876,6 +10746,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole_Pad"
@@ -10885,6 +10756,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
@@ -11032,6 +10904,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -11041,6 +10914,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -11405,73 +11279,6 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 33.02 15.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cf5192a-ecb8-4d6a-b3c6-43c68d99dc3f")
-		(property "Reference" "TP5"
-			(at 38.1 13.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 38.1 16.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 33.02 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 33.02 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61b97a98-4e8a-41b6-88fb-9e4fbf7499fb")
-		)
-		(instances
-			(project "STM32"
-				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -11858,71 +11665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 191.77 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "794a89ad-e76c-47f4-bcbb-a0ddb92cf338")
-		(property "Reference" "TP12"
-			(at 188.468 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 188.468 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 191.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 191.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebc17c0c-5e17-4de2-b72d-1a095ded590a")
-		)
-		(instances
-			(project "STM32"
-				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Aesthetic:Fiducial_0.5mm")
 		(at 99.06 154.94 0)
 		(unit 1)
@@ -12066,6 +11808,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -12074,6 +11817,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -12764,6 +12508,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -12773,6 +12518,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -12965,6 +12711,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -12974,6 +12721,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -13032,6 +12780,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -13041,6 +12790,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -13099,6 +12849,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -13108,6 +12859,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -13438,6 +13190,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -13447,6 +13200,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -13505,6 +13259,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -13514,6 +13269,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -13620,73 +13376,6 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 198.12 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b34b2bc2-5c97-49d3-b0a6-a8f5fb69c2dc")
-		(property "Reference" "TP23"
-			(at 200.66 89.4079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 200.66 91.9479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 203.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 198.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7424ace5-00f5-4ead-b387-1f8eea2f3868")
-		)
-		(instances
-			(project "STM32"
-				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
-					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -13932,6 +13621,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole_Pad"
@@ -13941,6 +13631,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
@@ -14689,73 +14380,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 50.8 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd304715-783a-4f91-b26f-d0b96311d156")
-		(property "Reference" "H3"
-			(at 53.34 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 53.34 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 50.8 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 50.8 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9ed50ce-b590-49a6-820a-e978c5b2df93")
-		)
-		(instances
-			(project "STM32"
-				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 208.28 50.8 90)
 		(unit 1)
@@ -14929,6 +14553,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -14938,6 +14563,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -15152,6 +14778,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -15161,6 +14788,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -15288,6 +14916,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -15297,6 +14926,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -15401,73 +15031,6 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebf36b0e-274c-444c-9537-3979fe3941d1")
-		(property "Reference" "TP18"
-			(at 142.24 42.4179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 142.24 44.9579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 144.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abd30d7a-b4cc-47d4-800f-9949668cfe7b")
-		)
-		(instances
-			(project "STM32"
-				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
-					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -15869,73 +15432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 50.8 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f664e079-1633-4645-b9fe-08ad31e88dbd")
-		(property "Reference" "#PWR029"
-			(at 50.8 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 165.1 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b04ee53d-736d-4a09-a915-fe0aac93336b")
-		)
-		(instances
-			(project "STM32"
-				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:L")
 		(at 212.09 71.12 90)
 		(unit 1)
@@ -16173,6 +15669,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -16182,6 +15679,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
