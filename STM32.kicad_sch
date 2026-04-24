@@ -616,6 +616,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -2789,6 +2896,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Diode_TVS_AKL:USBLC6-2SC6"
 			(pin_names
 				(offset 1.016)
@@ -4402,6 +4616,97 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Aesthetic:Fiducial_0.5mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Fiducial_0.5mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0.5mm_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "x"
+					(at 0 0.254 0)
+					(effects
+						(font
+							(size 2.5 2.5)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-LED:LED"
 			(pin_numbers
 				(hide yes)
@@ -5210,6 +5515,12 @@
 		(uuid "04898b3f-1bf5-4764-a50b-55263b1c8a9b")
 	)
 	(junction
+		(at 205.74 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "052f997c-ceda-4a0a-8a9b-e5897d761e00")
+	)
+	(junction
 		(at 50.8 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5240,10 +5551,22 @@
 		(uuid "13d11690-002e-418b-a576-bb2bcfc4f319")
 	)
 	(junction
+		(at 200.66 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "181749f4-fd12-4bef-80dd-9e9fd7feb005")
+	)
+	(junction
 		(at 59.69 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "183f4def-548b-494c-9f05-a46df775b7db")
+	)
+	(junction
+		(at 125.73 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18aef1c1-2b07-4a1e-933b-c7b3ead1bb38")
 	)
 	(junction
 		(at 191.77 114.3)
@@ -5262,6 +5585,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ac4f942-0b9a-4ecb-9b8f-b015c3b558e7")
+	)
+	(junction
+		(at 62.23 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b482444-8be9-48be-8d42-143a1dba0277")
 	)
 	(junction
 		(at 59.69 78.74)
@@ -5288,6 +5617,12 @@
 		(uuid "335427e8-cd84-4405-945b-697fb4ab45c6")
 	)
 	(junction
+		(at 191.77 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35fa6a4d-2301-47fc-9abf-cb7487a22ccc")
+	)
+	(junction
 		(at 43.18 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5298,6 +5633,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3847fb6a-1f60-4a3f-82f0-28d038e63661")
+	)
+	(junction
+		(at 107.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e72cbb3-8854-4247-8b9d-3a72f2efbbdd")
 	)
 	(junction
 		(at 220.98 71.12)
@@ -5312,6 +5653,12 @@
 		(uuid "45910dfb-57bf-4d83-9dcd-0717c3a7633a")
 	)
 	(junction
+		(at 46.99 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f6f119-bf2f-4d4b-89f9-5c4d7157eeff")
+	)
+	(junction
 		(at 204.47 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5322,6 +5669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c2e8b5f-dbe5-467b-88eb-606d5f538f49")
+	)
+	(junction
+		(at 154.94 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e913ff-518e-4a19-a919-e4dc477be9f8")
 	)
 	(junction
 		(at 15.24 24.13)
@@ -5354,10 +5707,22 @@
 		(uuid "69f5ee1d-01e4-430f-9298-abb3ca192dde")
 	)
 	(junction
+		(at 130.81 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6efefc6a-8475-49c0-9bae-cc9a2624972f")
+	)
+	(junction
 		(at 204.47 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "786d06f1-0039-453c-a833-64cd161cb6cd")
+	)
+	(junction
+		(at 88.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c04630d-e0dd-46fe-8dc4-0273c1deb9c7")
 	)
 	(junction
 		(at 24.13 33.02)
@@ -5376,6 +5741,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fa1fa38-fdb5-49d4-b5d5-c3019cfdeb5c")
+	)
+	(junction
+		(at 62.23 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fba6f4b-84c8-4cbf-a9f4-7ca2771b86b1")
+	)
+	(junction
+		(at 213.36 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89577ade-3501-472e-97f4-df0c4ee4eb39")
 	)
 	(junction
 		(at 161.29 57.15)
@@ -5400,6 +5777,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "959a7e83-e8b6-41ae-bf5f-bec1c281c7e4")
+	)
+	(junction
+		(at 240.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98e8dcab-7922-4f0c-98da-76afc5de38f4")
+	)
+	(junction
+		(at 53.34 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c0aed6d-3d68-43f9-bc04-376511ada91c")
+	)
+	(junction
+		(at 198.12 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ff5c391-0241-470d-9399-7b635b49e227")
 	)
 	(junction
 		(at 173.99 25.4)
@@ -5438,6 +5833,18 @@
 		(uuid "b9173306-23ab-4e5e-84a2-6f1d741590f4")
 	)
 	(junction
+		(at 88.9 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9270d2c-141c-4dd3-84af-ec0f9dcdb8f5")
+	)
+	(junction
+		(at 139.7 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c08c6173-c7da-4a67-a44b-9b594f9c5043")
+	)
+	(junction
 		(at 50.8 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5456,6 +5863,12 @@
 		(uuid "cead806a-da67-4774-948e-14bc3b228338")
 	)
 	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf850d6f-617a-439b-9977-68e46ad36e92")
+	)
+	(junction
 		(at 96.52 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5466,6 +5879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d64d0711-f0f0-49f9-a991-a33f0e30f953")
+	)
+	(junction
+		(at 191.77 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d843cc2c-17a5-4dc3-a40a-d70edb2619c3")
 	)
 	(junction
 		(at 33.02 15.24)
@@ -5496,6 +5915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f953bbc6-bc0d-4ef1-b7a7-f96ecad00a9b")
+	)
+	(junction
+		(at 219.71 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fca63424-9777-4b1c-80ae-15b407f62fe2")
 	)
 	(junction
 		(at 60.96 29.21)
@@ -5849,6 +6274,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 81.28) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2e7ff6-5866-4ec5-8405-06d3107fc580")
+	)
+	(wire
+		(pts
+			(xy 46.99 120.65) (xy 52.07 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0bcc9b-9ab0-46e8-9985-5604d3606d12")
+	)
+	(wire
+		(pts
 			(xy 60.96 40.64) (xy 60.96 43.18)
 		)
 		(stroke
@@ -5909,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 46.99) (xy 153.67 46.99)
+			(xy 132.08 46.99) (xy 139.7 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5919,7 +6364,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 127) (xy 217.17 127)
+			(xy 210.82 127) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
@@ -5939,7 +6384,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 88.9) (xy 215.9 88.9)
+			(xy 53.34 59.69) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0da152-d2eb-48f8-99ef-70290cb94477")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6019,7 +6474,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 140.97 101.6)
+			(xy 127 101.6) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6089,6 +6544,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bf5f53-846e-4645-9179-ceb7ee949bd3")
+	)
+	(wire
+		(pts
 			(xy 166.37 57.15) (xy 163.83 57.15)
 		)
 		(stroke
@@ -6109,7 +6574,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 118.11) (xy 191.77 114.3)
+			(xy 191.77 118.11) (xy 191.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6624,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 71.12) (xy 220.98 71.12)
+			(xy 217.17 71.12) (xy 219.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6176,6 +6641,16 @@
 			(type default)
 		)
 		(uuid "4fcccc0e-acfb-4480-afe0-ccab30d7a24e")
+	)
+	(wire
+		(pts
+			(xy 219.71 71.12) (xy 220.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f8ac56-f289-4aca-bf40-e57a4f53b5e1")
 	)
 	(wire
 		(pts
@@ -6239,6 +6714,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 25.4) (xy 173.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5760727c-b12c-4c09-bda4-512b13b200d5")
+	)
+	(wire
+		(pts
 			(xy 191.77 66.04) (xy 186.69 66.04)
 		)
 		(stroke
@@ -6246,6 +6731,16 @@
 			(type default)
 		)
 		(uuid "5768da35-488c-4610-a09f-d5526b82198d")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 217.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cd9115-1655-4418-83aa-4e2a07055665")
 	)
 	(wire
 		(pts
@@ -6359,7 +6854,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 59.69) (xy 63.5 59.69)
+			(xy 24.13 59.69) (xy 53.34 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6419,7 +6914,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 104.14) (xy 204.47 104.14)
+			(xy 186.69 104.14) (xy 200.66 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6439,6 +6934,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 158.75) (xy 50.8 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76146c3d-1222-4b05-ae56-2c297549c38d")
+	)
+	(wire
+		(pts
 			(xy 163.83 140.97) (xy 161.29 140.97)
 		)
 		(stroke
@@ -6446,6 +6951,16 @@
 			(type default)
 		)
 		(uuid "76e2a001-560e-46e3-8c5b-3433b541e9b5")
+	)
+	(wire
+		(pts
+			(xy 57.15 158.75) (xy 57.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fad71c-2339-4ed0-9e1b-d07899df36e1")
 	)
 	(wire
 		(pts
@@ -6569,7 +7084,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 120.65 99.06)
+			(xy 120.65 107.95) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6639,7 +7154,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 120.65) (xy 52.07 120.65)
+			(xy 107.95 88.9) (xy 107.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89299a2a-054a-4a36-8ef4-9e8da63c0ca0")
+	)
+	(wire
+		(pts
+			(xy 43.18 120.65) (xy 46.99 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6649,7 +7174,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 93.98) (xy 210.82 93.98)
+			(xy 186.69 93.98) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6659,7 +7184,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 115.57 81.28)
+			(xy 77.47 81.28) (xy 88.9 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6676,6 +7201,16 @@
 			(type default)
 		)
 		(uuid "8bcc4be5-16d3-4c80-8920-076c7eba34cd")
+	)
+	(wire
+		(pts
+			(xy 191.77 116.84) (xy 191.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0778b8-4aa5-41cb-b8e8-60ad432146ef")
 	)
 	(wire
 		(pts
@@ -6809,7 +7344,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 140.97 116.84)
+			(xy 123.19 116.84) (xy 125.73 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6869,6 +7404,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a379bfea-4c54-446a-b951-8407416836da")
+	)
+	(wire
+		(pts
 			(xy 246.38 86.36) (xy 246.38 90.17)
 		)
 		(stroke
@@ -6876,6 +7421,16 @@
 			(type default)
 		)
 		(uuid "a3d514c2-6d18-43a4-96f8-65bc87faf301")
+	)
+	(wire
+		(pts
+			(xy 39.37 158.75) (xy 39.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f0bc7e-e23e-4695-bd4c-fda57c1e4583")
 	)
 	(wire
 		(pts
@@ -6979,6 +7534,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 158.75) (xy 44.45 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d1aec8-1874-4acc-9e6c-ca529ccd8631")
+	)
+	(wire
+		(pts
 			(xy 220.98 83.82) (xy 220.98 71.12)
 		)
 		(stroke
@@ -7079,6 +7644,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1dbb58-a0c8-43e4-a3b0-3859a5086850")
+	)
+	(wire
+		(pts
+			(xy 88.9 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdefa2e7-1442-41c8-9170-8a1744941b28")
+	)
+	(wire
+		(pts
 			(xy 73.66 43.18) (xy 60.96 43.18)
 		)
 		(stroke
@@ -7086,6 +7671,16 @@
 			(type default)
 		)
 		(uuid "be4de613-796f-4363-bb4c-2f36fdf25c16")
+	)
+	(wire
+		(pts
+			(xy 154.94 25.4) (xy 149.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed74fe1-9096-44ca-9425-ba5b9a7f969a")
 	)
 	(wire
 		(pts
@@ -7136,16 +7731,6 @@
 			(type default)
 		)
 		(uuid "c1b07b08-7033-4e42-9141-54b3a9036d0e")
-	)
-	(wire
-		(pts
-			(xy 158.75 25.4) (xy 173.99 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ff0661-80e1-4c90-a1eb-95817443d84e")
 	)
 	(wire
 		(pts
@@ -7209,6 +7794,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 46.99) (xy 153.67 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfc8c78-96ed-4aab-9601-1ed023c3e479")
+	)
+	(wire
+		(pts
 			(xy 186.69 76.2) (xy 193.04 76.2)
 		)
 		(stroke
@@ -7219,7 +7814,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 100.33) (xy 107.95 55.88)
+			(xy 107.95 100.33) (xy 107.95 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7236,6 +7831,16 @@
 			(type default)
 		)
 		(uuid "cfda59a4-879a-4481-8fac-f1df6bffd9e1")
+	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 210.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bb9144-ad47-4c08-87fe-f0701631a782")
 	)
 	(wire
 		(pts
@@ -7309,6 +7914,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 104.14) (xy 204.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89d6ced-0913-4aec-a97a-1d3bb3dd906d")
+	)
+	(wire
+		(pts
 			(xy 240.03 66.04) (xy 240.03 77.47)
 		)
 		(stroke
@@ -7349,7 +7964,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 120.65 78.74)
+			(xy 77.47 78.74) (xy 88.9 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7409,7 +8024,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 25.4) (xy 149.86 25.4)
+			(xy 156.21 25.4) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7486,6 +8101,16 @@
 			(type default)
 		)
 		(uuid "e84c0603-3e3b-4703-8ad4-5d8a02b8a555")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91cb912-725a-41d8-b8c6-235565d11e3a")
 	)
 	(wire
 		(pts
@@ -7888,6 +8513,140 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 57.15 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0491103b-e581-4686-b9fd-77da2d697047")
+		(property "Reference" "#PWR030"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93bfa09e-00ac-4165-bb33-d73e285b07a9")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06dbf44a-540f-419c-9ce9-69c7cc42f756")
+		(property "Reference" "TP9"
+			(at 242.57 99.8219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 242.57 102.3619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36908528-979a-46ce-8ad4-311a7f27586d")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -8485,6 +9244,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "159a0fa3-edca-455f-bd3e-62add03fdffa")
+		(property "Reference" "TP11"
+			(at 203.2 99.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 203.2 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ef262a1-bce7-4f7a-a790-da9605b13319")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_fab:R_1206")
 		(at 33.02 30.48 0)
 		(unit 1)
@@ -8869,6 +9695,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 39.37 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205459d9-9496-496e-ae62-9c1f785848fa")
+		(property "Reference" "H1"
+			(at 41.91 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 41.91 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 39.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 39.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66144f76-1bf4-4903-9454-b398424c2cb3")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_fab:R_1206")
 		(at 62.23 115.57 0)
 		(unit 1)
@@ -9028,6 +9921,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "298b2110-7ca9-4d82-bbfe-69a336e7ab1e")
+		(property "Reference" "TP16"
+			(at 64.77 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.77 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc6608bc-0253-4301-a491-2d85f93f4819")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 40.64 36.83 0)
 		(unit 1)
@@ -9089,6 +10049,140 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bbc74d2-4d93-4cd8-81e1-5ef8779e6e11")
+		(property "Reference" "TP14"
+			(at 91.44 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef308179-5750-43e2-b114-d61765beb08f")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e2e9a43-720e-4bbc-aeed-197798953ab8")
+		(property "Reference" "TP22"
+			(at 194.31 66.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 194.31 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb5ef98-28d9-4962-9c5d-edbf37fefb1f")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -9699,6 +10793,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51304932-7b1d-492b-81df-e7f285e7a3d9")
+		(property "Reference" "TP6"
+			(at 55.88 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c9799f9-cb4b-4a3c-8fbb-344f14704929")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "548a246f-9bbd-460a-ae19-eac861ae38ce")
+		(property "Reference" "H2"
+			(at 46.99 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 46.99 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cebe39f5-a9bb-4e35-8a71-7519a6f9c1ab")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 50.8 35.56 0)
 		(unit 1)
@@ -9782,6 +11010,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ff75a6-52b5-4257-bd42-f75df8000bb9")
+		(property "Reference" "TP1"
+			(at 128.27 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 128.27 114.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3be2fd0-49a7-4429-80e3-534826f500f0")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10110,6 +11405,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 15.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf5192a-ecb8-4d6a-b3c6-43c68d99dc3f")
+		(property "Reference" "TP5"
+			(at 38.1 13.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 38.1 16.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b97a98-4e8a-41b6-88fb-9e4fbf7499fb")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10490,6 +11852,264 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "794a89ad-e76c-47f4-bcbb-a0ddb92cf338")
+		(property "Reference" "TP12"
+			(at 188.468 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 188.468 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebc17c0c-5e17-4de2-b72d-1a095ded590a")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Aesthetic:Fiducial_0.5mm")
+		(at 99.06 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a4e1e24-6a2d-4c6e-8406-00fdf538ad02")
+		(property "Reference" "FID3"
+			(at 99.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 99.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 99.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Aesthetic:Fiducial_0.5mm")
+		(at 91.44 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80347359-cf25-4ad6-9298-3b9d9d23d45d")
+		(property "Reference" "FID1"
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 91.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 91.44 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82807921-ebaf-4a05-8fb6-77d522b66ae5")
+		(property "Reference" "TP3"
+			(at 117.348 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 117.348 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87248b7a-95b2-4187-af9d-2497b4759113")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10994,6 +12614,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Aesthetic:Fiducial_0.5mm")
+		(at 95.25 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d75e5e0-df84-4203-89e8-2bc7189ab02a")
+		(property "Reference" "FID2"
+			(at 95.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 95.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_fab:R_1206")
 		(at 33.02 43.18 180)
 		(unit 1)
@@ -11058,6 +12742,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "937da420-8d52-4163-b9b3-ddc79b5a4714")
+		(property "Reference" "TP17"
+			(at 64.77 83.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.77 85.8519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88e937f6-ad54-4b67-a4d6-8c2e58fa1b5d")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -11198,6 +12949,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 219.71 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0dc44c-7d4c-4f0d-be28-61e7c949d0c0")
+		(property "Reference" "TP10"
+			(at 222.25 66.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 222.25 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de950ca6-caef-40fe-8067-f255470f9bc6")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a3b88ac-a1d0-44de-af3c-61291699fd97")
+		(property "Reference" "TP19"
+			(at 157.48 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 157.48 23.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 160.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9684bc8f-ee6a-4e34-b2d5-4edb5de1a4f8")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 27.94 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a5ec14f-c661-4958-bea6-0424416b1f95")
+		(property "Reference" "TP21"
+			(at 30.48 35.0519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 30.48 37.5919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3cd62ee-4a96-4ee2-aaa7-8e4229ba1bb0")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Generic:P,+3.3")
 		(at 173.99 21.59 0)
 		(unit 1)
@@ -11261,6 +13213,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 44.45 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b70477a-68a8-4a8c-b50b-71a2a25aecae")
+		(property "Reference" "#PWR015"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c9d46c-aff8-4b5b-8f9c-3cb3a8a7125b")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11403,6 +13422,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa26d4bd-5861-49b6-9532-8b83f5dd3bcc")
+		(property "Reference" "TP15"
+			(at 91.44 83.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 85.8519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84baa646-1e24-419e-948f-f52855771af4")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f99982-8d06-4c6f-8bb3-71ac66c488d7")
+		(property "Reference" "TP4"
+			(at 113.03 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d6ba53-d6a2-43f6-9278-96efc051902c")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 245.11 66.04 0)
 		(unit 1)
@@ -11467,6 +13620,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34b2bc2-5c97-49d3-b0a6-a8f5fb69c2dc")
+		(property "Reference" "TP23"
+			(at 200.66 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 200.66 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7424ace5-00f5-4ead-b387-1f8eea2f3868")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -11690,6 +13910,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 57.15 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce8eaf6-f438-4cb2-bc8d-a268eba44486")
+		(property "Reference" "H4"
+			(at 59.69 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 59.69 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "991c150b-8d34-4d76-8cf6-f0671d3f3b12")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12267,6 +14554,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 39.37 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d96c33-6d81-4f77-9448-fb007f127dc8")
+		(property "Reference" "#PWR013"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f846973a-4150-4e6b-b9f0-b16059f2f838")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Devices:Crystal_32.768kHz")
 		(at 198.12 114.3 0)
 		(unit 1)
@@ -12329,6 +14683,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd304715-783a-4f91-b26f-d0b96311d156")
+		(property "Reference" "H3"
+			(at 53.34 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ed50ce-b590-49a6-820a-e978c5b2df93")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12492,6 +14913,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d132d4d0-1a20-46cf-b211-b7d0fdcd0948")
+		(property "Reference" "TP7"
+			(at 49.53 116.0779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 118.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b23d5f9-2da7-4822-bfdd-24a81f59dd0a")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 85.09 35.56 0)
 		(unit 1)
@@ -12648,6 +15136,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d45009a0-b64a-4f03-a82b-3158e0c8ba0a")
+		(property "Reference" "TP8"
+			(at 208.28 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 208.28 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a494cdc-271f-430f-a645-9726c216bb79")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Generic:P,+3.3")
 		(at 102.87 58.42 0)
 		(unit 1)
@@ -12717,6 +15272,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab65cbd-81df-434b-bc1e-0ddddd24fdc1")
+		(property "Reference" "TP2"
+			(at 133.35 103.6319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 133.35 106.1719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691b5289-3ded-496c-9d9d-de27f0e2311e")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_fab:R_1206")
 		(at 238.76 127 90)
 		(unit 1)
@@ -12779,6 +15401,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebf36b0e-274c-444c-9537-3979fe3941d1")
+		(property "Reference" "TP18"
+			(at 142.24 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 142.24 44.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 144.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd30d7a-b4cc-47d4-800f-9949668cfe7b")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -13180,6 +15869,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 50.8 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f664e079-1633-4645-b9fe-08ad31e88dbd")
+		(property "Reference" "#PWR029"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b04ee53d-736d-4a09-a915-fe0aac93336b")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:L")
 		(at 212.09 71.12 90)
 		(unit 1)
@@ -13395,6 +16151,73 @@
 			(project "STM32"
 				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffbdbac5-40e3-4ddb-815d-e56aaeab6475")
+		(property "Reference" "TP13"
+			(at 215.9 122.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 215.9 124.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2353eaa2-db8c-46de-8453-a22f1a8a27fa")
+		)
+		(instances
+			(project "STM32"
+				(path "/1ee9b135-c2d4-420f-a92e-dcb7bc51234f"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
